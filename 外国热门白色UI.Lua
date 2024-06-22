@@ -636,8 +636,8 @@ function OrionLib:MakeWindow(WindowConfig)
 		MainWindow.Visible = false
 		UIHidden = true
 		OrionLib:MakeNotification({
-			Name = "冬凌中心",
-			Content = "拜拜了"..game.Players.LocalPlayer.Name.."我们以后再相见",
+			Name = "拜拜了-By:冬凌",
+			Content = "我们以后还会相见吗?",
 			Time = 5
 		})
 		WindowConfig.CloseCallback()
